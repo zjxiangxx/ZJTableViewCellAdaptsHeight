@@ -11,6 +11,7 @@
 		F045FBDF2A84781C0048E52C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F045FBDE2A84781C0048E52C /* ViewController.swift */; };
 		F045FBE42A84781D0048E52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F045FBE32A84781D0048E52C /* Assets.xcassets */; };
 		F045FBE72A84781D0048E52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F045FBE52A84781D0048E52C /* LaunchScreen.storyboard */; };
+		F045FBEF2A84B8470048E52C /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F045FBEE2A84B8470048E52C /* data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F045FBE32A84781D0048E52C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F045FBE62A84781D0048E52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F045FBE82A84781D0048E52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F045FBEE2A84B8470048E52C /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				F045FBDA2A84781C0048E52C /* AppDelegate.swift */,
 				F045FBDE2A84781C0048E52C /* ViewController.swift */,
+				F045FBEE2A84B8470048E52C /* data.plist */,
 				F045FBE32A84781D0048E52C /* Assets.xcassets */,
 				F045FBE52A84781D0048E52C /* LaunchScreen.storyboard */,
 				F045FBE82A84781D0048E52C /* Info.plist */,
@@ -119,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F045FBEF2A84B8470048E52C /* data.plist in Resources */,
 				F045FBE72A84781D0048E52C /* LaunchScreen.storyboard in Resources */,
 				F045FBE42A84781D0048E52C /* Assets.xcassets in Resources */,
 			);
