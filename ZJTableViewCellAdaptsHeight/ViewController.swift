@@ -11,9 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setup()
     }
 
+    //MARK: setup
+    private func setup() {
+        navigationItem.title = "Cell自适应高度"
+        view.backgroundColor = UIColor.white
+    }
 
 }
 
